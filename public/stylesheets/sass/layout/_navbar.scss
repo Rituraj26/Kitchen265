@@ -17,7 +17,9 @@
 	ul:last-child {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
+		grid-column-gap: 2rem;
 		align-items: center;
+		justify-items: center;
 
 		a:link, a:visited {
 			text-decoration: none;
@@ -27,7 +29,7 @@
 			transition: .2s;
 		}
 		a:hover, a:active {
-			border-bottom: 1px solid $color-primary;
+			border-bottom: 1.6px solid $color-primary;
 		}
 
 		li:nth-child(1) {
@@ -43,9 +45,9 @@
 			grid-column: 4 / span 1;
 		}
 	}
-	i {
-		font-size: 4rem;
-		margin: 1.5rem;
-		color: $color-secondary;
-	}
+	// i {
+	// 	font-size: 4rem;
+	// 	margin: 1.5rem;
+	// 	color: $color-secondary;
+	// }
 }
